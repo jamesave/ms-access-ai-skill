@@ -1,0 +1,183 @@
+﻿{
+  "Info": {
+    "Class": "clsVCSIndex",
+    "Description": "Version Control System Index"
+  },
+  "Items": {
+    "MergeBuildDate": null,
+    "FullBuildDate": "2026-02-08T08:31:08.000Z",
+    "ExportDate": null,
+    "FullExportDate": null,
+    "OptionsHash": "",
+    "LastMergedCommit": "",
+    "Components": {
+      "DB Properties": {
+        "dbs-properties.json": {
+          "FileHash": "4e8464d",
+          "ExportDate": "",
+          "ImportDate": "2026-02-08T08:31:05.000Z",
+          "SourceModified": null,
+          "FilePropertiesHash": "57323ae"
+        }
+      },
+      "Forms": {
+        "fCustomerDetail.bas": {
+          "FileHash": "c5d1f48",
+          "ExportDate": "",
+          "ImportDate": "2026-02-08T08:31:06.000Z",
+          "SourceModified": null,
+          "FilePropertiesHash": "3f8d796"
+        },
+        "fCustomerList.bas": {
+          "FileHash": "f5d7bed",
+          "ExportDate": "",
+          "ImportDate": "2026-02-08T08:31:06.000Z",
+          "SourceModified": null,
+          "FilePropertiesHash": "13ede22"
+        },
+        "fOrderDetail.bas": {
+          "FileHash": "b501e9a",
+          "ExportDate": "",
+          "ImportDate": "2026-02-08T08:31:06.000Z",
+          "SourceModified": null,
+          "FilePropertiesHash": "6324326"
+        },
+        "fOrderItemsSub.bas": {
+          "FileHash": "dd39eae",
+          "ExportDate": "",
+          "ImportDate": "2026-02-08T08:31:06.000Z",
+          "SourceModified": null,
+          "FilePropertiesHash": "df34203"
+        },
+        "fOrderList.bas": {
+          "FileHash": "5de82b4",
+          "ExportDate": "",
+          "ImportDate": "2026-02-08T08:31:06.000Z",
+          "SourceModified": null,
+          "FilePropertiesHash": "3b2f040"
+        },
+        "fStartup.bas": {
+          "FileHash": "c3d4eab",
+          "ExportDate": "",
+          "ImportDate": "2026-02-08T08:31:06.000Z",
+          "SourceModified": null,
+          "FilePropertiesHash": "751c07b"
+        }
+      },
+      "Modules": {
+        "modNavigation.bas": {
+          "FileHash": "214933c",
+          "ExportDate": "",
+          "ImportDate": "2026-02-08T08:31:05.000Z",
+          "SourceModified": null,
+          "FilePropertiesHash": "6cde6c1"
+        }
+      },
+      "Project": {
+        "project.json": {
+          "FileHash": "19c3478",
+          "ExportDate": "",
+          "ImportDate": "2026-02-08T08:31:05.000Z",
+          "SourceModified": null,
+          "FilePropertiesHash": "b08257c"
+        }
+      },
+      "Queries": {
+        "qCustomers.bas": {
+          "FileHash": "94a0d80",
+          "ExportDate": "",
+          "ImportDate": "2026-02-08T08:31:05.000Z",
+          "SourceModified": null,
+          "FilePropertiesHash": "805ec63"
+        },
+        "qOrderItems.bas": {
+          "FileHash": "29102d3",
+          "ExportDate": "",
+          "ImportDate": "2026-02-08T08:31:05.000Z",
+          "SourceModified": null,
+          "FilePropertiesHash": "0a8d36f"
+        },
+        "qOrderReport.bas": {
+          "FileHash": "efe32ac",
+          "ExportDate": "",
+          "ImportDate": "2026-02-08T08:31:05.000Z",
+          "SourceModified": null,
+          "FilePropertiesHash": "165e1f6"
+        },
+        "qOrders.bas": {
+          "FileHash": "9d9218a",
+          "ExportDate": "",
+          "ImportDate": "2026-02-08T08:31:05.000Z",
+          "SourceModified": null,
+          "FilePropertiesHash": "c1a1632"
+        }
+      },
+      "Relations": {
+        "tCustomerstOrders.json": {
+          "FileHash": "88f553f",
+          "ExportDate": "",
+          "ImportDate": "2026-02-08T08:31:06.000Z",
+          "SourceModified": null,
+          "FilePropertiesHash": "b7135f0"
+        },
+        "tOrderstOrderItems.json": {
+          "FileHash": "1b2aae3",
+          "ExportDate": "",
+          "ImportDate": "2026-02-08T08:31:06.000Z",
+          "SourceModified": null,
+          "FilePropertiesHash": "0b505ec"
+        }
+      },
+      "Reports": {
+        "rOrderReport.bas": {
+          "FileHash": "4bc4a5d",
+          "ExportDate": "",
+          "ImportDate": "2026-02-08T08:31:06.000Z",
+          "SourceModified": null,
+          "FilePropertiesHash": "2a90385"
+        }
+      },
+      "Tables": {
+        "tCustomers.xml": {
+          "FileHash": "f4450ce",
+          "ExportDate": "",
+          "ImportDate": "2026-02-08T08:31:05.000Z",
+          "SourceModified": null,
+          "FilePropertiesHash": "6697ace"
+        },
+        "tOrderItems.xml": {
+          "FileHash": "07597e7",
+          "ExportDate": "",
+          "ImportDate": "2026-02-08T08:31:05.000Z",
+          "SourceModified": null,
+          "FilePropertiesHash": "6116e2a"
+        },
+        "tOrders.xml": {
+          "FileHash": "aa7692e",
+          "ExportDate": "",
+          "ImportDate": "2026-02-08T08:31:05.000Z",
+          "SourceModified": null,
+          "FilePropertiesHash": "6040e69"
+        }
+      },
+      "VB Project": {
+        "vbe-project.json": {
+          "FileHash": "02d220f",
+          "ExportDate": "",
+          "ImportDate": "2026-02-08T08:31:05.000Z",
+          "SourceModified": null,
+          "FilePropertiesHash": "bdb50e1"
+        }
+      },
+      "VBE References": {
+        "vbe-references.json": {
+          "FileHash": "49a5862",
+          "ExportDate": "",
+          "ImportDate": "2026-02-08T08:31:05.000Z",
+          "SourceModified": null,
+          "FilePropertiesHash": "5220232"
+        }
+      }
+    }
+  }
+}

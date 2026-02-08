@@ -1,0 +1,12 @@
+{
+  "Info": {"Class": "clsDbProperty", "Description": "Database Properties (DAO)"},
+  "Items": {
+    "StartUpForm": {"Value": "fStartup", "Type": 10},
+    "AccessVersion": {"Value": "09.50", "Type": 10},
+    "Build": {"Value": 1, "Type": 4},
+    "Theme Resource Name": {"Value": "Office Theme", "Type": 10},
+    "NavPane Category": {"Value": 0, "Type": 4},
+    "Show Hidden Objects": {"Value": false, "Type": 1},
+    "Show System Objects": {"Value": false, "Type": 1}
+  }
+}

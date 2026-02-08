@@ -1,0 +1,20 @@
+{
+  "Info": {
+    "AddinVersion": "4.1.2",
+    "AccessVersion": "16.0 64-bit"
+  },
+  "Options": {
+    "ShowDebug": true,
+    "UseFastSave": true,
+    "UseMergeBuild": false,
+    "SavePrintVars": true,
+    "SaveQuerySQL": true,
+    "FormatSQL": true,
+    "SplitLayoutFromVBA": true,
+    "SanitizeLevel": 2,
+    "HashAlgorithm": "SHA256",
+    "UseShortHash": true,
+    "TablesToExportData": {},
+    "ExportPrintSettings": { "Orientation": true, "PaperSize": true }
+  }
+}
