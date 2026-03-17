@@ -15,6 +15,7 @@ Read the relevant reference file before working on a specific object type:
 |---|---|
 | Form `.bas` layout or form controls | `references/forms.md` |
 | Report `.bas` layout, sections, or sorting/grouping | `references/reports.md` |
+| Images in forms or reports (add, replace, convert from OLE) | `references/images.md` |
 | Conditional formatting (forms or reports) | `references/conditional-formatting.md` |
 | Queries (`.bas` + `.sql`) | `references/queries.md` |
 | Tables, relationships, or ODBC connections | `references/tables-and-relationships.md` |
