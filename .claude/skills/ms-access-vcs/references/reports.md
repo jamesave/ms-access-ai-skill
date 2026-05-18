@@ -138,6 +138,41 @@ Example with 4 break levels (only level 2 has visible header/footer):
         End
 ```
 
+## Label Property Restrictions
+
+Label controls do **not** support `BorderStyle` or `OldBorderStyle`. Setting either causes `This property does not apply to this control` on import. To visually distinguish labels (e.g., column headers in a report page header), use background fill instead:
+
+- Set `BackStyle =1` (opaque) — required for `BackColor` to be visible
+- Set `BackColor =<color>` to apply a fill color
+
+### `BackStyle` values
+
+| Value | Meaning | Notes |
+|-------|---------|-------|
+| `0` | Transparent — `BackColor` ignored, section shows through | Default for OptionGroup |
+| `1` | Normal — interior filled with `BackColor` | Default for all other controls |
+
+A control inherits `BackStyle` from the report's default control style. If that default sets `BackStyle =0`, every new label is transparent unless overridden.
+
+Wrong (causes import error):
+```
+Begin Label
+    Name ="Header_Label"
+    Caption ="Column Header"
+    BorderStyle =1            <- ERROR: not applicable to Label
+End
+```
+
+Correct:
+```
+Begin Label
+    BackStyle =1
+    Name ="Header_Label"
+    Caption ="Column Header"
+    BackColor =14277081       <- light grey background fill
+End
+```
+
 ## Common Structural Errors
 
 - Using `Begin Sorting` → `Expected: 'Begin'. Found: Sorting.` (`Sorting` is not valid syntax; use `BreakLevel` instead)

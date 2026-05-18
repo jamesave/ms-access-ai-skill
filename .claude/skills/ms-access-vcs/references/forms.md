@@ -230,6 +230,42 @@ Begin Subform
 End
 ```
 
+## Label Property Restrictions
+
+Label controls do **not** support `BorderStyle` or `OldBorderStyle`. Setting either causes `This property does not apply to this control` on import. To visually distinguish labels (e.g., column headers), use background fill instead:
+
+- Set `BackStyle =1` (opaque) — required for `BackColor` to be visible
+- Set `BackColor =<color>` to apply a fill color
+
+### `BackStyle` values
+
+| Value | Meaning | Notes |
+|-------|---------|-------|
+| `0` | Transparent — `BackColor` ignored, form/section shows through | Default for OptionGroup |
+| `1` | Normal — interior filled with `BackColor` | Default for all other controls |
+
+A control inherits `BackStyle` from the form's default control style (the `Begin Label` / `Begin TextBox` block in the form container). If that default sets `BackStyle =0`, every new label on the form is transparent unless overridden.
+
+Wrong (causes import error):
+```
+Begin Label
+    Name ="Header_Label"
+    Caption ="Column Header"
+    BorderStyle =1            <- ERROR: not applicable to Label
+    BorderColor =0            <- meaningless without BorderStyle
+End
+```
+
+Correct (use background fill instead):
+```
+Begin Label
+    BackStyle =1
+    Name ="Header_Label"
+    Caption ="Column Header"
+    BackColor =14277081       <- light grey background fill
+End
+```
+
 ## List/Detail Form Navigation Pattern
 
 A common Access pattern is a list form (continuous/datasheet) that opens a detail form for add/edit, then needs to refresh when the user returns. The list form's data must be requeried to show changes made in the detail form.
