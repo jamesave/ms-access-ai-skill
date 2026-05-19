@@ -29,7 +29,21 @@ Rules:
 - `Attributes: 536870912` (0x20000000) = linked ODBC table
 - DSN names are case-sensitive in connection strings
 - `SourceTableName` uses the format `schema.tablename` (e.g., `dbo.tMyTable`)
-- `PrimaryKey` uses bracket notation (e.g., `[ID]`, `[CompoundKey1];[CompoundKey2]`)
+- `PrimaryKey` uses bracket notation; for a compound key, separate columns with `, ` (e.g., `[Id]` or `[Id], [NameID]`)
+
+### Creating a new linked table or view link
+
+Two things must happen before Access can resolve a new linked-table name:
+
+1. **The object exists on the SQL Server side.** Deploy the table/view to the database the DSN points to.
+2. **The tbldef file exists in `tbldefs/`** with the correct encoding (UTF-8 BOM + CRLF). Use `printf` rather than `Write`/`echo`, which strip BOM:
+   ```bash
+   printf '\xEF\xBB\xBF{\r\n  "Info": {\r\n    "Class": "clsDbTableDef",\r\n    "Description": "Linked Table"\r\n  },\r\n  "Items": {\r\n    "Name": "vwMyView",\r\n    "Connect": "ODBC;DSN=CRM;Trusted_Connection=Yes;APP=Microsoft Office;DATABASE=CRM;",\r\n    "SourceTableName": "dbo.vwMyView",\r\n    "Attributes": 536870912,\r\n    "PrimaryKey": "[Id]"\r\n  }\r\n}\r\n' > CRM.accdb.src/tbldefs/vwMyView.json
+   ```
+
+### How linked tables appear in `vcs-index.json`
+
+Quirk: linked-table tbldef files are listed under the `"Tables"` component of `vcs-index.json` with an **`.xml`** extension regardless of the actual `.json` file on disk. For example, `tbldefs/vwMyView.json` is tracked as `"vwMyView.xml"` in the index. When grepping the index for a tbldef entry, search by base name only.
 
 ## Local Table Definitions (tbldefs/*.xml)
 

@@ -272,7 +272,7 @@ Tracks every exported component with file hashes, export/import dates, and sourc
       "Relations": { "tParenttChild.json": { ... } },
       "Reports": { "rReportName.bas": { ... } },
       "Shared Images": { "ImageName.json": { ... } },
-      "Tables": { "tTableName.json": { ... }, "tLocalTable.xml": { ... } },
+      "Tables": { "tLinkedTable.xml": { ... }, "tLocalTable.xml": { ... } },
       "Themes": { "Office Theme.thmx": { ... } },
       "VB Project": { "vbe-project.json": { ... } },
       "VBE References": { "vbe-references.json": { ... } }
@@ -282,6 +282,8 @@ Tracks every exported component with file hashes, export/import dates, and sourc
 ```
 
 Component category names (used as keys): `DB Connections`, `DB Properties`, `Doc Properties`, `Forms`, `Hidden Attributes`, `IMEX Specs`, `Macros`, `Modules`, `Nav Pane Groups`, `Proj Properties`, `Project`, `Queries`, `Relations`, `Reports`, `Shared Images`, `Tables`, `Themes`, `VB Project`, `VBE References`.
+
+**Quirk:** under `"Tables"`, both linked-table tbldefs (`.json` on disk) and local-table XSD schemas (`.xml` on disk) are indexed with an **`.xml`** suffix. When searching the index for a tbldef entry, search by base name — e.g., a tbldef at `tbldefs/vwMyView.json` appears in the index as `"vwMyView.xml"`.
 
 ## VCS Build (Import) Order
 

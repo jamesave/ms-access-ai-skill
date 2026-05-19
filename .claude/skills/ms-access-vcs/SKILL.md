@@ -47,7 +47,15 @@ When deleting an object, delete ALL its associated files plus its entry in `vcs-
 
 ### Encoding
 
-All JSON configuration files and `.sql` files use **UTF-8 with BOM** (byte order mark `EF BB BF`). The BOM must be preserved when editing. Binary text `.bas` files (forms, reports, macros) also use UTF-8 with BOM.
+All JSON configuration files and `.sql` files use **UTF-8 with BOM** (byte order mark `EF BB BF`). The BOM must be preserved when editing. Binary text `.bas` files (forms, reports, macros) also use UTF-8 with BOM. `.bas`, `.cls`, and tbldef/relation `.json` files additionally use **CRLF** line endings (enforced via `.gitattributes`).
+
+**Creating a new file from scratch:** standard write tools (including Claude's `Write` tool, `echo`, `cat <<EOF`) silently produce UTF-8 *without* BOM and use **LF** endings — this will corrupt the import. To create a new VCS file, emit the bytes explicitly:
+
+```bash
+printf '\xEF\xBB\xBF{\r\n  "Info": { ... }\r\n}\r\n' > path/to/new-file.json
+```
+
+Verify after writing: `od -c -N 5 path/to/new-file.json` should show `357 273 277` (the BOM) as the first three bytes, and the file should contain `\r` before each `\n`. *Editing* an existing file with `Edit`/`Read` preserves the original encoding — the BOM-stripping issue only applies to brand-new files created via `Write`.
 
 ## Safe Deletion Checklist
 
@@ -58,7 +66,7 @@ Before deleting any Access object:
    - Query SQL (`FROM tableName`, subreport `SourceObject`)
    - Form RecordSource properties
    - DLookup expressions
-2. **Check for name collisions.** Objects with similar names may serve completely different purposes (e.g., `rInvoice_EXTERNALSYSTEM` = active invoice report vs `EXTERNALSYSTEM_Accounts` = dead integration table).
+2. **Check for name collisions.** Objects with similar names may serve completely different purposes (e.g., an active report and a dead integration table that share a prefix).
 3. **Delete all paired files** (.bas + .sql, .bas + .cls + .json, etc.)
 4. **Remove from config files:** vcs-index.json, db-connection.json, hidden-attributes.json
 5. **Renumber TabIndex** values in any form/report section where a control was removed
