@@ -1,0 +1,549 @@
+﻿Version =20
+VersionRequired =20
+Begin Report
+    LayoutForPrint = NotDefault
+    DividingLines = NotDefault
+    AllowAdditions = NotDefault
+    AllowDesignChanges = NotDefault
+    DefaultView =0
+    DateGrouping =1
+    GrpKeepTogether =1
+    PictureAlignment =2
+    DatasheetGridlinesBehavior =3
+    GridX =24
+    GridY =24
+    Width =11230
+    DatasheetFontHeight =11
+    ItemSuffix =150
+    Left =610
+    Top =3320
+    RecSrcDt = Begin
+        0xbb477158b874e640
+    End
+    RecordSource ="SELECT T_PcsSetBOM.*, T_ProfilKeping.KepingAutoID, T_ProfilKeping.DeskripsiProfi"
+        "lKeping FROM T_ProfilKeping INNER JOIN T_PcsSetBOM ON T_ProfilKeping.KepingID = "
+        "T_PcsSetBOM.KepingID; "
+    DatasheetFontName ="Calibri"
+    FilterOnLoad =0
+    FitToPage =1
+    DisplayOnSharePointSite =1
+    DatasheetAlternateBackColor =15921906
+    DatasheetGridlinesColor12 =0
+    FitToScreen =1
+    DatasheetBackThemeColorIndex =1
+    BorderThemeColorIndex =3
+    ThemeFontIndex =1
+    ForeThemeColorIndex =0
+    AlternateBackThemeColorIndex =1
+    AlternateBackShade =95.0
+    Begin
+        Begin Label
+            BackStyle =0
+            FontSize =11
+            FontName ="Calibri"
+            GridlineColor =-2147483609
+            ThemeFontIndex =1
+            BackThemeColorIndex =1
+            BorderThemeColorIndex =0
+            BorderTint =50.0
+            ForeThemeColorIndex =0
+            ForeTint =60.0
+        End
+        Begin Rectangle
+            BorderLineStyle =0
+            GridlineColor =-2147483609
+            BackThemeColorIndex =1
+            BorderThemeColorIndex =1
+            BorderShade =65.0
+        End
+        Begin Line
+            BorderLineStyle =0
+            GridlineColor =-2147483609
+            BorderThemeColorIndex =0
+        End
+        Begin Image
+            OldBorderStyle =0
+            BorderLineStyle =0
+            SizeMode =3
+            PictureAlignment =2
+            GridlineColor =-2147483609
+            BackThemeColorIndex =1
+            BorderThemeColorIndex =1
+            BorderShade =65.0
+        End
+        Begin CommandButton
+            FontSize =11
+            FontWeight =400
+            FontName ="Calibri"
+            GridlineColor =-2147483609
+            ForeThemeColorIndex =0
+            ForeTint =75.0
+            UseTheme =1
+            Shape =1
+            Gradient =12
+            BackThemeColorIndex =4
+            BackTint =60.0
+            BorderLineStyle =0
+            BorderThemeColorIndex =4
+            BorderTint =60.0
+            ThemeFontIndex =1
+            HoverThemeColorIndex =4
+            HoverTint =40.0
+            PressedThemeColorIndex =4
+            PressedShade =75.0
+            HoverForeThemeColorIndex =0
+            HoverForeTint =75.0
+            PressedForeThemeColorIndex =0
+            PressedForeTint =75.0
+        End
+        Begin OptionButton
+            BorderLineStyle =0
+            LabelX =230
+            LabelY =-30
+            GridlineColor =-2147483609
+            BorderThemeColorIndex =1
+            BorderShade =65.0
+        End
+        Begin CheckBox
+            BorderLineStyle =0
+            LabelX =230
+            LabelY =-30
+            GridlineColor =-2147483609
+            BorderThemeColorIndex =1
+            BorderShade =65.0
+        End
+        Begin OptionGroup
+            BorderLineStyle =0
+            GridlineColor =-2147483609
+            BackThemeColorIndex =1
+            BorderThemeColorIndex =1
+            BorderShade =65.0
+        End
+        Begin BoundObjectFrame
+            AddColon = NotDefault
+            SizeMode =3
+            BorderLineStyle =0
+            LabelX =-1800
+            GridlineColor =-2147483609
+            BackThemeColorIndex =1
+            BorderThemeColorIndex =1
+            BorderShade =65.0
+        End
+        Begin TextBox
+            AddColon = NotDefault
+            FELineBreak = NotDefault
+            BorderLineStyle =0
+            LabelX =-1800
+            FontSize =11
+            FontName ="Calibri"
+            AsianLineBreak =1
+            GridlineColor =-2147483609
+            ShowDatePicker =0
+            BackThemeColorIndex =1
+            BorderThemeColorIndex =1
+            BorderShade =65.0
+            ThemeFontIndex =1
+            ForeThemeColorIndex =0
+            ForeTint =75.0
+        End
+        Begin ListBox
+            BorderLineStyle =0
+            LabelX =-1800
+            FontSize =11
+            FontName ="Calibri"
+            GridlineColor =-2147483609
+            AllowValueListEdits =1
+            InheritValueList =1
+            ThemeFontIndex =1
+            BackThemeColorIndex =1
+            BorderThemeColorIndex =1
+            BorderShade =65.0
+            ForeThemeColorIndex =0
+            ForeTint =75.0
+        End
+        Begin ComboBox
+            AddColon = NotDefault
+            BorderLineStyle =0
+            LabelX =-1800
+            FontSize =11
+            FontName ="Calibri"
+            GridlineColor =-2147483609
+            AllowValueListEdits =1
+            InheritValueList =1
+            ThemeFontIndex =1
+            BackThemeColorIndex =1
+            BorderThemeColorIndex =1
+            BorderShade =65.0
+            ForeThemeColorIndex =2
+            ForeShade =50.0
+        End
+        Begin Subform
+            BorderLineStyle =0
+            GridlineColor =-2147483609
+        End
+        Begin Chart
+            OldBorderStyle =1
+            GridlineColor =-2147483609
+            ThemeFontIndex =1
+            BackThemeColorIndex =1
+            BorderThemeColorIndex =1
+            BorderShade =65.0
+            ForeThemeColorIndex =2
+            ForeShade =50.0
+        End
+        Begin UnboundObjectFrame
+            OldBorderStyle =1
+            GridlineColor =-2147483609
+            ThemeFontIndex =1
+            BackThemeColorIndex =1
+            BorderThemeColorIndex =1
+            BorderShade =65.0
+            ForeThemeColorIndex =2
+            ForeShade =50.0
+        End
+        Begin CustomControl
+            OldBorderStyle =1
+            GridlineColor =-2147483609
+            BackThemeColorIndex =1
+            BorderThemeColorIndex =1
+            BorderShade =65.0
+        End
+        Begin ToggleButton
+            FontName ="Calibri"
+            GridlineColor =-2147483609
+            ForeThemeColorIndex =0
+            ForeTint =75.0
+            UseTheme =1
+            Shape =2
+            Bevel =1
+            BackThemeColorIndex =4
+            BackTint =60.0
+            OldBorderStyle =0
+            BorderLineStyle =0
+            BorderThemeColorIndex =4
+            BorderTint =60.0
+            ThemeFontIndex =1
+            HoverThemeColorIndex =4
+            HoverTint =40.0
+            PressedThemeColorIndex =4
+            PressedShade =75.0
+            HoverForeThemeColorIndex =0
+            HoverForeTint =75.0
+            PressedForeThemeColorIndex =1
+        End
+        Begin Tab
+            FontSize =11
+            FontName ="Calibri Light"
+            GridlineColor =-2147483609
+            ThemeFontIndex =0
+            UseTheme =1
+            Shape =3
+            BackThemeColorIndex =1
+            BackShade =85.0
+            BorderLineStyle =0
+            BorderThemeColorIndex =2
+            BorderTint =60.0
+            HoverThemeColorIndex =1
+            PressedThemeColorIndex =1
+            HoverForeThemeColorIndex =0
+            HoverForeTint =75.0
+            PressedForeThemeColorIndex =0
+            PressedForeTint =75.0
+            ForeThemeColorIndex =0
+            ForeTint =75.0
+        End
+        Begin Page
+            GridlineColor =-2147483609
+            BorderThemeColorIndex =1
+            BorderShade =65.0
+        End
+        Begin Attachment
+            BackStyle =0
+            BorderLineStyle =0
+            PictureSizeMode =3
+            Width =3200
+            Height =2560
+            GridlineColor =-2147483609
+            LabelX =-1800
+            AddColon =0
+            ThemeFontIndex =1
+            BackThemeColorIndex =1
+            BorderThemeColorIndex =1
+            BorderShade =65.0
+        End
+        Begin EmptyCell
+            Height =240
+            GridlineColor =-2147483609
+        End
+        Begin WebBrowser
+            OldBorderStyle =1
+            GridlineColor =-2147483609
+            BackThemeColorIndex =1
+            BorderThemeColorIndex =1
+            BorderShade =65.0
+        End
+        Begin NavigationControl
+            BorderWidth =1
+            BorderLineStyle =0
+            ForeColor =3484194
+            BackThemeColorIndex =1
+            BorderThemeColorIndex =1
+            GridlineColor =-2147483609
+        End
+        Begin NavigationButton
+            GridlineColor =-2147483609
+            HoverThemeColorIndex =2
+            HoverTint =20.0
+            PressedThemeColorIndex =2
+            PressedTint =60.0
+            HoverForeThemeColorIndex =0
+            HoverForeTint =75.0
+            PressedForeThemeColorIndex =0
+            PressedForeTint =75.0
+            BackThemeColorIndex =1
+            OldBorderStyle =0
+            BorderLineStyle =0
+            BorderThemeColorIndex =3
+            BorderShade =90.0
+            ThemeFontIndex =1
+            TextFontCharSet =177
+            TextFontFamily =0
+            FontName ="Calibri"
+            FontWeight =400
+            FontSize =11
+            ForeThemeColorIndex =0
+            ForeTint =75.0
+        End
+        Begin ModernChart
+            OldBorderStyle =0
+            BorderLineStyle =0
+            GridlineColor =-2147483609
+            BackThemeColorIndex =1
+            ChartTitle ="Chart Title"
+            ChartTitleFontName ="Calibri"
+            ThemeFontIndex =1
+            ChartSubtitle ="Subtitle"
+        End
+        Begin Edge
+            OldBorderStyle =1
+            GridlineColor =-2147483609
+            BackThemeColorIndex =1
+            BorderThemeColorIndex =1
+            BorderShade =65.0
+        End
+        Begin BreakLevel
+            GroupHeader = NotDefault
+            ControlSource ="=1"
+        End
+        Begin FormHeader
+            KeepTogether = NotDefault
+            CanGrow = NotDefault
+            CanShrink = NotDefault
+            Height =0
+            Name ="ReportHeader"
+            AlternateBackThemeColorIndex =1
+            AlternateBackShade =95.0
+            BackThemeColorIndex =2
+            BackTint =20.0
+        End
+        Begin PageHeader
+            Height =0
+            Name ="PageHeaderSection"
+            AlternateBackThemeColorIndex =1
+            AlternateBackShade =95.0
+            BackThemeColorIndex =1
+        End
+        Begin BreakHeader
+            CanGrow = NotDefault
+            CanShrink = NotDefault
+            RepeatSection = NotDefault
+            Height =60
+            Name ="GroupHeader0"
+            AlternateBackThemeColorIndex =1
+            AlternateBackShade =95.0
+            BackThemeColorIndex =1
+            Begin
+                Begin TextBox
+                    Visible = NotDefault
+                    IMESentenceMode =3
+                    Left =3900
+                    Height =40
+                    Name ="TotalQty"
+                    ControlSource ="=Sum([Qty])"
+
+                    LayoutCachedLeft =3900
+                    LayoutCachedWidth =5340
+                    LayoutCachedHeight =40
+                End
+            End
+        End
+        Begin Section
+            KeepTogether = NotDefault
+            CanGrow = NotDefault
+            CanShrink = NotDefault
+            Height =1080
+            Name ="Detail"
+            AlternateBackThemeColorIndex =1
+            AlternateBackShade =95.0
+            BackThemeColorIndex =1
+            Begin
+                Begin Subform
+                    Locked = NotDefault
+                    CanShrink = NotDefault
+                    Left =120
+                    Top =420
+                    Width =11110
+                    Height =596
+                    Name ="R_ProfilKepingDetail"
+                    SourceObject ="Report.R_ProfilKepingDetail"
+                    LinkChildFields ="KepingID"
+                    LinkMasterFields ="KepingID"
+
+                    LayoutCachedLeft =120
+                    LayoutCachedTop =420
+                    LayoutCachedWidth =11230
+                    LayoutCachedHeight =1016
+                End
+                Begin TextBox
+                    IMESentenceMode =3
+                    Left =2040
+                    Top =60
+                    Width =300
+                    Height =300
+                    TabIndex =2
+                    Name ="Qty"
+                    ControlSource ="Qty"
+
+                    LayoutCachedLeft =2040
+                    LayoutCachedTop =60
+                    LayoutCachedWidth =2340
+                    LayoutCachedHeight =360
+                    Begin
+                        Begin Label
+                            Left =2400
+                            Top =60
+                            Width =370
+                            Height =300
+                            Name ="Label143"
+                            Caption ="Pcs"
+                            LeftPadding =0
+                            TopPadding =0
+                            RightPadding =0
+                            BottomPadding =0
+                            LayoutCachedLeft =2400
+                            LayoutCachedTop =60
+                            LayoutCachedWidth =2770
+                            LayoutCachedHeight =360
+                        End
+                    End
+                End
+                Begin TextBox
+                    IMESentenceMode =3
+                    Left =4020
+                    Top =60
+                    Width =5340
+                    Height =300
+                    ColumnWidth =4300
+                    TabIndex =3
+                    Name ="DeskripsiProfilKeping"
+                    ControlSource ="DeskripsiProfilKeping"
+
+                    LayoutCachedLeft =4020
+                    LayoutCachedTop =60
+                    LayoutCachedWidth =9360
+                    LayoutCachedHeight =360
+                    Begin
+                        Begin Label
+                            Left =2880
+                            Top =60
+                            Width =1080
+                            Height =300
+                            Name ="Label144"
+                            Caption ="Desk. Profil"
+                            LayoutCachedLeft =2880
+                            LayoutCachedTop =60
+                            LayoutCachedWidth =3960
+                            LayoutCachedHeight =360
+                        End
+                    End
+                End
+                Begin TextBox
+                    OldBorderStyle =0
+                    IMESentenceMode =3
+                    Left =10080
+                    Top =60
+                    Width =1140
+                    Height =300
+                    ColumnWidth =2170
+                    TabIndex =4
+                    Name ="KepingAutoID"
+                    ControlSource ="KepingID"
+
+                    LayoutCachedLeft =10080
+                    LayoutCachedTop =60
+                    LayoutCachedWidth =11220
+                    LayoutCachedHeight =360
+                    Begin
+                        Begin Label
+                            Left =9540
+                            Top =60
+                            Width =480
+                            Height =300
+                            Name ="Label145"
+                            Caption ="PKID"
+                            LayoutCachedLeft =9540
+                            LayoutCachedTop =60
+                            LayoutCachedWidth =10020
+                            LayoutCachedHeight =360
+                        End
+                    End
+                End
+                Begin TextBox
+                    IMESentenceMode =3
+                    Left =420
+                    Top =60
+                    Height =300
+                    TabIndex =1
+                    Name ="KepingID"
+                    ControlSource ="KepingID"
+
+                    LayoutCachedLeft =420
+                    LayoutCachedTop =60
+                    LayoutCachedWidth =1860
+                    LayoutCachedHeight =360
+                    Begin
+                        Begin Label
+                            Left =120
+                            Top =60
+                            Width =300
+                            Height =300
+                            Name ="Label142"
+                            Caption ="PK"
+                            LayoutCachedLeft =120
+                            LayoutCachedTop =60
+                            LayoutCachedWidth =420
+                            LayoutCachedHeight =360
+                        End
+                    End
+                End
+            End
+        End
+        Begin PageFooter
+            Height =0
+            Name ="PageFooterSection"
+            AlternateBackThemeColorIndex =1
+            AlternateBackShade =95.0
+            BackThemeColorIndex =1
+        End
+        Begin FormFooter
+            KeepTogether = NotDefault
+            CanGrow = NotDefault
+            CanShrink = NotDefault
+            Height =0
+            Name ="ReportFooter"
+            AlternateBackThemeColorIndex =1
+            AlternateBackShade =95.0
+            BackThemeColorIndex =1
+        End
+    End
+End

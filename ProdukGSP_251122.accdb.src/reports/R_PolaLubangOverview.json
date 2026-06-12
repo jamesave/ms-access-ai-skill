@@ -1,0 +1,28 @@
+﻿{
+  "Info": {
+    "Class": "clsDbReport",
+    "Description": "R_PolaLubangOverview Print Settings"
+  },
+  "Items": {
+    "Printer": {
+      "Orientation": "Landscape",
+      "PaperSize": "A4"
+    },
+    "Margins": {
+      "LeftMargin": 0,
+      "TopMargin": 0,
+      "RightMargin": 0,
+      "BotMargin": 0,
+      "DataOnly": false,
+      "Width": 6.5,
+      "Height": 0.2806,
+      "DefaultSize": true,
+      "Columns": 1,
+      "ColumnSpacing": 0.25,
+      "RowSpacing": 0,
+      "ItemLayout": "Horizontal Columns",
+      "FastPrint": 1,
+      "Datasheet": 1
+    }
+  }
+}

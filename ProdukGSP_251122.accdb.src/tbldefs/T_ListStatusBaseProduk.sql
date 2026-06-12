@@ -1,0 +1,4 @@
+﻿CREATE TABLE [T_ListStatusBaseProduk] (
+  [StatusProdukID] AUTOINCREMENT CONSTRAINT [PrimaryKey] PRIMARY KEY UNIQUE NOT NULL,
+  [StatusProduk] VARCHAR (255)
+)

@@ -1,0 +1,6 @@
+﻿CREATE TABLE [T_Gambar] (
+  [ID] AUTOINCREMENT CONSTRAINT [PrimaryKey] PRIMARY KEY UNIQUE NOT NULL,
+  [ImageCode] VARCHAR (255),
+  [ImagePath] VARCHAR (255),
+  [Note] LONGTEXT
+)

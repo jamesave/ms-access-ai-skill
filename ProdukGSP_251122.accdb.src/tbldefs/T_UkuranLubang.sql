@@ -1,0 +1,4 @@
+﻿CREATE TABLE [T_UkuranLubang] (
+  [UkuranLubangID] AUTOINCREMENT CONSTRAINT [PrimaryKey] PRIMARY KEY UNIQUE NOT NULL,
+  [UkuranLubang] VARCHAR (255)
+)

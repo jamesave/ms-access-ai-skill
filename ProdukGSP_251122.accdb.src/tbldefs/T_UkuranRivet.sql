@@ -1,0 +1,6 @@
+﻿CREATE TABLE [T_UkuranRivet] (
+  [RivetID] AUTOINCREMENT CONSTRAINT [PrimaryKey] PRIMARY KEY UNIQUE NOT NULL,
+  [KodeRivet] VARCHAR (255),
+  [Ukuran] VARCHAR (255),
+  [KodeBarang] VARCHAR (255)
+)

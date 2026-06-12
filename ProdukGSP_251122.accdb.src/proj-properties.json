@@ -1,0 +1,10 @@
+﻿{
+  "Info": {
+    "Class": "clsDbProjProperty",
+    "Description": "Project Properties (Access)"
+  },
+  "Items": {
+    "VCS Build Path": "C:\\Users\\gunai\\OneDrive\\Documents",
+    "VCS Source Path": "C:\\Users\\gunai\\OneDrive\\Documents\\GitHub"
+  }
+}

@@ -1,0 +1,857 @@
+﻿{
+  "Info": {
+    "Class": "clsVCSIndex",
+    "Description": "Version Control System Index"
+  },
+  "Items": {
+    "MergeBuildDate": null,
+    "FullBuildDate": null,
+    "ExportDate": "2026-06-10T16:55:14.000Z",
+    "FullExportDate": "2026-06-10T16:55:14.000Z",
+    "OptionsHash": "a7135fd",
+    "LastMergedCommit": "",
+    "Components": {
+      "DB Connections": {
+        "db-connection.json": {
+        }
+      },
+      "DB Properties": {
+        "dbs-properties.json": {
+          "FileHash": "b759f5b",
+          "ExportDate": "2026-06-10T16:55:03.000Z",
+          "SourceModified": null,
+          "FilePropertiesHash": "f1ef131"
+        }
+      },
+      "Doc Properties": {
+        "documents.json": {
+          "FileHash": "1348a5b",
+          "ExportDate": "2026-06-10T16:55:13.000Z",
+          "SourceModified": null,
+          "FilePropertiesHash": "d10a845"
+        }
+      },
+      "Forms": {
+        "F_BaseProdukDetail.bas": {
+          "FileHash": "cec0858",
+          "OtherHash": "381c5a9",
+          "ExportDate": "2026-06-10T16:55:10.000Z",
+          "SourceModified": null,
+          "FilePropertiesHash": "0e080c4"
+        },
+        "F_BaseProdukDetail_251127_bak.bas": {
+          "FileHash": "1a14665",
+          "OtherHash": "19b5aab",
+          "ExportDate": "2026-06-10T16:55:12.000Z",
+          "SourceModified": null,
+          "FilePropertiesHash": "f6494cd"
+        },
+        "F_BlankoKeping.bas": {
+          "FileHash": "108801f",
+          "OtherHash": "20307e4",
+          "ExportDate": "2026-06-10T16:55:09.000Z",
+          "SourceModified": null,
+          "FilePropertiesHash": "dfceec4"
+        },
+        "F_Daftar.bas": {
+          "FileHash": "147dfc1",
+          "ExportDate": "2026-06-10T16:55:11.000Z",
+          "SourceModified": null,
+          "FilePropertiesHash": "fdebc5d"
+        },
+        "F_DaftarBaseProduk.bas": {
+          "FileHash": "bcbf423",
+          "OtherHash": "23095ae",
+          "ExportDate": "2026-06-10T16:55:11.000Z",
+          "SourceModified": null,
+          "FilePropertiesHash": "7ca993c"
+        },
+        "F_DaftarBlankoKeping.bas": {
+          "FileHash": "4185f66",
+          "OtherHash": "14f33a7",
+          "ExportDate": "2026-06-10T16:55:09.000Z",
+          "SourceModified": null,
+          "FilePropertiesHash": "d0f35ae"
+        },
+        "F_DaftarPolaLubang.bas": {
+          "FileHash": "ce9569a",
+          "OtherHash": "ac7395b",
+          "ExportDate": "2026-06-10T16:55:11.000Z",
+          "SourceModified": null,
+          "FilePropertiesHash": "f2d510c"
+        },
+        "F_DaftarPolaLubang_Detail.bas": {
+          "FileHash": "403e910",
+          "OtherHash": "efc8d18",
+          "ExportDate": "2026-06-10T16:55:08.000Z",
+          "SourceModified": null,
+          "FilePropertiesHash": "1d39c42"
+        },
+        "F_DaftarProfilKeping.bas": {
+          "FileHash": "1f582c8",
+          "OtherHash": "4f07f79",
+          "ExportDate": "2026-06-10T16:55:09.000Z",
+          "SourceModified": null,
+          "FilePropertiesHash": "66d000b"
+        },
+        "F_ImagePolaLubang.bas": {
+          "FileHash": "297f4ca",
+          "OtherHash": "7f2e061",
+          "ExportDate": "2026-06-10T16:55:12.000Z",
+          "SourceModified": null,
+          "FilePropertiesHash": "4dc40f3"
+        },
+        "F_ImageProfilKeping.bas": {
+          "FileHash": "8b60daa",
+          "OtherHash": "7f2e061",
+          "ExportDate": "2026-06-10T16:55:09.000Z",
+          "SourceModified": null,
+          "FilePropertiesHash": "6c0a219"
+        },
+        "F_MenuUtama.bas": {
+          "FileHash": "d1f1b1f",
+          "OtherHash": "37a4dd1",
+          "ExportDate": "2026-06-10T16:55:12.000Z",
+          "SourceModified": null,
+          "FilePropertiesHash": "e72e1f3"
+        },
+        "F_PcsSetBOM.bas": {
+          "FileHash": "f43ced0",
+          "OtherHash": "7cf6383",
+          "ExportDate": "2026-06-10T16:55:11.000Z",
+          "SourceModified": null,
+          "FilePropertiesHash": "4a722f1"
+        },
+        "F_PcsSetBOM_sfr_old.bas": {
+          "FileHash": "a1cb888",
+          "OtherHash": "7cf6383",
+          "ExportDate": "2026-06-10T16:55:11.000Z",
+          "SourceModified": null,
+          "FilePropertiesHash": "8042a77"
+        },
+        "F_PolaLubangDetail.bas": {
+          "FileHash": "93eb43e",
+          "OtherHash": "ea6e509",
+          "ExportDate": "2026-06-10T16:55:08.000Z",
+          "SourceModified": null,
+          "FilePropertiesHash": "795663c"
+        },
+        "F_ProdukCustomerDetail.bas": {
+          "FileHash": "fd6cb12",
+          "OtherHash": "a9828ec",
+          "ExportDate": "2026-06-10T16:55:11.000Z",
+          "SourceModified": null,
+          "FilePropertiesHash": "28f860a"
+        },
+        "F_ProfilKeping_depcrecated.bas": {
+          "FileHash": "1eb72aa",
+          "OtherHash": "ac1c230",
+          "ExportDate": "2026-06-10T16:55:12.000Z",
+          "SourceModified": null,
+          "FilePropertiesHash": "ef4ba34"
+        },
+        "F_ProfilKepingDetail.bas": {
+          "FileHash": "7d81e0f",
+          "OtherHash": "d5b51a0",
+          "ExportDate": "2026-06-10T16:55:08.000Z",
+          "SourceModified": null,
+          "FilePropertiesHash": "9f9450c"
+        },
+        "F_ProfilKepingDetail_bak_241103.bas": {
+          "FileHash": "ed0b381",
+          "OtherHash": "782c52d",
+          "ExportDate": "2026-06-10T16:55:11.000Z",
+          "SourceModified": null,
+          "FilePropertiesHash": "8d91949"
+        },
+        "F_ProfilKepingDetail_v1.bas": {
+          "FileHash": "812965d",
+          "OtherHash": "89b8c0a",
+          "ExportDate": "2026-06-10T16:55:11.000Z",
+          "SourceModified": null,
+          "FilePropertiesHash": "846fa3d"
+        },
+        "F_ReferensiHirarki.bas": {
+          "FileHash": "525d58e",
+          "ExportDate": "2026-06-10T16:55:10.000Z",
+          "SourceModified": null,
+          "FilePropertiesHash": "d2991ad"
+        },
+        "SFR_BlankoKeping.bas": {
+          "FileHash": "edaaaa6",
+          "ExportDate": "2026-06-10T16:55:09.000Z",
+          "SourceModified": null,
+          "FilePropertiesHash": "47c3d02"
+        },
+        "Sfr_PcsSetBOM_upd.bas": {
+          "FileHash": "a761f6e",
+          "OtherHash": "b175e8c",
+          "ExportDate": "2026-06-10T16:55:11.000Z",
+          "SourceModified": null,
+          "FilePropertiesHash": "d4381b0"
+        },
+        "sfr_PolaLubangOverview.bas": {
+          "FileHash": "7e942a4",
+          "OtherHash": "7f81124",
+          "ExportDate": "2026-06-10T16:55:12.000Z",
+          "SourceModified": null,
+          "FilePropertiesHash": "273daf7"
+        },
+        "Sfr_ProfilKeping.bas": {
+          "FileHash": "2e6b31b",
+          "ExportDate": "2026-06-10T16:55:09.000Z",
+          "SourceModified": null,
+          "FilePropertiesHash": "09dac1e"
+        },
+        "sfrm_BaseProdukDetail.bas": {
+          "FileHash": "74848a6",
+          "OtherHash": "fccdbc0",
+          "ExportDate": "2026-06-10T16:55:09.000Z",
+          "SourceModified": null,
+          "FilePropertiesHash": "8179b26"
+        },
+        "sfrm_BlankoKeping.bas": {
+          "FileHash": "48ea191",
+          "ExportDate": "2026-06-10T16:55:09.000Z",
+          "SourceModified": null,
+          "FilePropertiesHash": "b173cf5"
+        },
+        "sfrm_BlankoKeping_deprecated.bas": {
+          "FileHash": "c3d09de",
+          "ExportDate": "2026-06-10T16:55:12.000Z",
+          "SourceModified": null,
+          "FilePropertiesHash": "93dca22"
+        },
+        "sfrm_PcsSetBOM.bas": {
+          "FileHash": "2f8c5ca",
+          "OtherHash": "f56274f",
+          "ExportDate": "2026-06-10T16:55:11.000Z",
+          "SourceModified": null,
+          "FilePropertiesHash": "15107b0"
+        },
+        "sfrm_PcsSetBOM_deprecated.bas": {
+          "FileHash": "46c7b3a",
+          "ExportDate": "2026-06-10T16:55:11.000Z",
+          "SourceModified": null,
+          "FilePropertiesHash": "2312649"
+        },
+        "sfrm_PolaLubangImage.bas": {
+          "FileHash": "99d3435",
+          "ExportDate": "2026-06-10T16:55:12.000Z",
+          "SourceModified": null,
+          "FilePropertiesHash": "57de427"
+        },
+        "sfrm_qcal_ProdukNmPcsPerSetCampurKeping.bas": {
+          "FileHash": "e3e2b67",
+          "ExportDate": "2026-06-10T16:55:09.000Z",
+          "SourceModified": null,
+          "FilePropertiesHash": "48977de"
+        },
+        "T_BaseProduk subform.bas": {
+          "FileHash": "c7b9444",
+          "ExportDate": "2026-06-10T16:55:09.000Z",
+          "SourceModified": null,
+          "FilePropertiesHash": "19cc701"
+        },
+        "T_BlankoKeping subform.bas": {
+          "FileHash": "276474c",
+          "ExportDate": "2026-06-10T16:55:09.000Z",
+          "SourceModified": null,
+          "FilePropertiesHash": "2e0c894"
+        },
+        "T_BlankoKeping subform1.bas": {
+          "FileHash": "2e64a65",
+          "ExportDate": "2026-06-10T16:55:10.000Z",
+          "SourceModified": null,
+          "FilePropertiesHash": "dabe0d0"
+        },
+        "T_BlankoKeping subform2.bas": {
+          "FileHash": "7fb2bc5",
+          "ExportDate": "2026-06-10T16:55:11.000Z",
+          "SourceModified": null,
+          "FilePropertiesHash": "cea720a"
+        },
+        "T_ListPolaLubang subform.bas": {
+          "FileHash": "0bf8360",
+          "ExportDate": "2026-06-10T16:55:08.000Z",
+          "SourceModified": null,
+          "FilePropertiesHash": "09bfcac"
+        },
+        "T_ListPolaLubang.bas": {
+          "FileHash": "8987583",
+          "ExportDate": "2026-06-10T16:55:10.000Z",
+          "SourceModified": null,
+          "FilePropertiesHash": "f2c8478"
+        },
+        "T_UkuranPolaLubang subform.bas": {
+          "FileHash": "735c4e0",
+          "ExportDate": "2026-06-10T16:55:09.000Z",
+          "SourceModified": null,
+          "FilePropertiesHash": "6efc61a"
+        }
+      },
+      "Hidden Attributes": {
+        "hidden-attributes.json": {
+        }
+      },
+      "IMEX Specs": {
+        "1.json": {
+          "FileHash": "a43b131",
+          "ExportDate": "2026-06-10T16:55:03.000Z",
+          "SourceModified": null,
+          "FilePropertiesHash": "b89bf31"
+        },
+        "Spec 4.json": {
+          "FileHash": "30e1c98",
+          "ExportDate": "2026-06-10T16:55:03.000Z",
+          "SourceModified": null,
+          "FilePropertiesHash": "b1e8a48"
+        }
+      },
+      "Modules": {
+        "basAddresses.bas": {
+          "FileHash": "1d159d3",
+          "OtherHash": "52f5d1e",
+          "ExportDate": "2026-06-10T16:55:02.000Z",
+          "SourceModified": null,
+          "FilePropertiesHash": "3224923"
+        },
+        "cbo_CategoryUpdate.bas": {
+          "FileHash": "a4e641b",
+          "OtherHash": "2a2ca04",
+          "ExportDate": "2026-06-10T16:55:03.000Z",
+          "SourceModified": null,
+          "FilePropertiesHash": "0653e67"
+        },
+        "clsErrorHandler.cls": {
+          "FileHash": "b0fbe55",
+          "OtherHash": "2248786",
+          "ExportDate": "2026-06-10T16:55:03.000Z",
+          "SourceModified": null,
+          "FilePropertiesHash": "bad3d25"
+        },
+        "Mod_DragDropFile.bas": {
+          "FileHash": "bbbe96b",
+          "OtherHash": "ab83444",
+          "ExportDate": "2026-06-10T16:55:03.000Z",
+          "SourceModified": null,
+          "FilePropertiesHash": "e82ddca"
+        },
+        "Mod_MainLib.bas": {
+          "FileHash": "2cf58b5",
+          "OtherHash": "1aaca6f",
+          "ExportDate": "2026-06-10T16:55:03.000Z",
+          "SourceModified": null,
+          "FilePropertiesHash": "c650ca5"
+        }
+      },
+      "Nav Pane Groups": {
+        "nav-pane-groups.json": {
+          "FileHash": "8b001dd",
+          "ExportDate": "2026-06-10T16:55:13.000Z",
+          "SourceModified": null,
+          "FilePropertiesHash": "d93d2f3"
+        }
+      },
+      "Proj Properties": {
+        "proj-properties.json": {
+          "FileHash": "280343d",
+          "ExportDate": "2026-06-10T16:55:02.000Z",
+          "SourceModified": null,
+          "FilePropertiesHash": "19978f5"
+        }
+      },
+      "Project": {
+        "project.json": {
+          "FileHash": "9fe41ad",
+          "ExportDate": "2026-06-10T16:55:02.000Z",
+          "SourceModified": null,
+          "FilePropertiesHash": "ed1350c"
+        }
+      },
+      "Queries": {
+        "F_ImageProfilKeping.bas": {
+          "FileHash": "8639a2f",
+          "ExportDate": "2026-06-10T16:55:04.000Z",
+          "SourceModified": null,
+          "FilePropertiesHash": "a602d44"
+        },
+        "F_PolaLubangDetail.bas": {
+          "FileHash": "a338b77",
+          "ExportDate": "2026-06-10T16:55:05.000Z",
+          "SourceModified": null,
+          "FilePropertiesHash": "ea3e6be"
+        },
+        "KategoriProduk.bas": {
+          "FileHash": "028a3b9",
+          "ExportDate": "2026-06-10T16:55:05.000Z",
+          "SourceModified": null,
+          "FilePropertiesHash": "392b74e"
+        },
+        "Q_BaseProdukDetail.bas": {
+          "FileHash": "7a34fce",
+          "ExportDate": "2026-06-10T16:55:05.000Z",
+          "SourceModified": null,
+          "FilePropertiesHash": "1851ea5"
+        },
+        "Q_Kategoriprodukid.bas": {
+          "FileHash": "70ddfc5",
+          "ExportDate": "2026-06-10T16:55:05.000Z",
+          "SourceModified": null,
+          "FilePropertiesHash": "d14a5d2"
+        },
+        "Q_ListProfilKepingByPolaLubang.bas": {
+          "FileHash": "e719181",
+          "ExportDate": "2026-06-10T16:55:05.000Z",
+          "SourceModified": null,
+          "FilePropertiesHash": "d608e82"
+        },
+        "Q_ProfileKepingUtama.bas": {
+          "FileHash": "7ac83de",
+          "ExportDate": "2026-06-10T16:55:05.000Z",
+          "SourceModified": null,
+          "FilePropertiesHash": "d1aab08"
+        },
+        "Q_TestingSortProdukName.bas": {
+          "FileHash": "d8911e7",
+          "ExportDate": "2026-06-10T16:55:05.000Z",
+          "SourceModified": null,
+          "FilePropertiesHash": "6d07306"
+        },
+        "Q_TotalQtyPcsPerSet.bas": {
+          "FileHash": "92faf6b",
+          "ExportDate": "2026-06-10T16:55:05.000Z",
+          "SourceModified": null,
+          "FilePropertiesHash": "9142e9c"
+        },
+        "Q_TrimNumber.bas": {
+          "FileHash": "30536c9",
+          "ExportDate": "2026-06-10T16:55:05.000Z",
+          "SourceModified": null,
+          "FilePropertiesHash": "db2d4b9"
+        },
+        "Q_TSetPcsBom_DataKeeping.bas": {
+          "FileHash": "0b7dda3",
+          "ExportDate": "2026-06-10T16:55:05.000Z",
+          "SourceModified": null,
+          "FilePropertiesHash": "c773c3a"
+        },
+        "qcal_PcsPerSetCampurKeping.bas": {
+          "FileHash": "b829fdd",
+          "ExportDate": "2026-06-10T16:55:05.000Z",
+          "SourceModified": null,
+          "FilePropertiesHash": "da39d25"
+        },
+        "qcal_ProdukNmPcsPerSetCampurKeping.bas": {
+          "FileHash": "30562e7",
+          "ExportDate": "2026-06-10T16:55:05.000Z",
+          "SourceModified": null,
+          "FilePropertiesHash": "1a6b2c7"
+        },
+        "Qry_BaseProduktoPolaLubang.bas": {
+          "FileHash": "353f2cd",
+          "ExportDate": "2026-06-10T16:55:05.000Z",
+          "SourceModified": null,
+          "FilePropertiesHash": "bce6bf2"
+        },
+        "Qry_BaseProduktoProfileKeping.bas": {
+          "FileHash": "8aa1800",
+          "ExportDate": "2026-06-10T16:55:05.000Z",
+          "SourceModified": null,
+          "FilePropertiesHash": "9540009"
+        },
+        "Qry_CekKepingTanpaBlankoKeping.bas": {
+          "FileHash": "5cb6f55",
+          "ExportDate": "2026-06-10T16:55:05.000Z",
+          "SourceModified": null,
+          "FilePropertiesHash": "003ed65"
+        },
+        "Qry_DistinctListPolaLubang_byHoleQty.bas": {
+          "FileHash": "d5a6520",
+          "ExportDate": "2026-06-10T16:55:05.000Z",
+          "SourceModified": null,
+          "FilePropertiesHash": "7f98a89"
+        },
+        "Qry_KepingIDsOnBaseProdukName.bas": {
+          "FileHash": "e80e938",
+          "ExportDate": "2026-06-10T16:55:06.000Z",
+          "SourceModified": null,
+          "FilePropertiesHash": "ac13df9"
+        },
+        "Qry_ListPolaLubang_byHoleQty.bas": {
+          "FileHash": "e219746",
+          "ExportDate": "2026-06-10T16:55:06.000Z",
+          "SourceModified": null,
+          "FilePropertiesHash": "e5a2907"
+        },
+        "Qry_ProdukCust.bas": {
+          "FileHash": "0bc2533",
+          "ExportDate": "2026-06-10T16:55:06.000Z",
+          "SourceModified": null,
+          "FilePropertiesHash": "4a90f50"
+        },
+        "Qry_ProfilKepingDetail_Primary.bas": {
+          "FileHash": "0c2e401",
+          "ExportDate": "2026-06-10T16:55:06.000Z",
+          "SourceModified": null,
+          "FilePropertiesHash": "e11f047"
+        },
+        "Qry_ProfilKepingtoBlankoKeping.bas": {
+          "FileHash": "c40a33c",
+          "ExportDate": "2026-06-10T16:55:06.000Z",
+          "SourceModified": null,
+          "FilePropertiesHash": "701b2bb"
+        },
+        "Qry_TotalQtyPcsPerSet.bas": {
+          "FileHash": "e8e2979",
+          "ExportDate": "2026-06-10T16:55:06.000Z",
+          "SourceModified": null,
+          "FilePropertiesHash": "13c6521"
+        },
+        "Qsel_KepingSemuaPolaLubang.bas": {
+          "FileHash": "78c1d0c",
+          "ExportDate": "2026-06-10T16:55:06.000Z",
+          "SourceModified": null,
+          "FilePropertiesHash": "7daab9f"
+        },
+        "Query_CheckDeskripsi_PCSsetBOM_BaseProduk.bas": {
+          "FileHash": "2c8a077",
+          "ExportDate": "2026-06-10T16:55:06.000Z",
+          "SourceModified": null,
+          "FilePropertiesHash": "d09743d"
+        },
+        "Query1.bas": {
+          "FileHash": "67cd142",
+          "ExportDate": "2026-06-10T16:55:06.000Z",
+          "SourceModified": null,
+          "FilePropertiesHash": "6c3407a"
+        },
+        "Query2.bas": {
+          "FileHash": "cde295a",
+          "ExportDate": "2026-06-10T16:55:06.000Z",
+          "SourceModified": null,
+          "FilePropertiesHash": "73c7471"
+        },
+        "T_PcsSetBOM Without Matching T_ProfilKeping.bas": {
+          "FileHash": "0df7c5c",
+          "ExportDate": "2026-06-10T16:55:06.000Z",
+          "SourceModified": null,
+          "FilePropertiesHash": "f16c92e"
+        }
+      },
+      "Relations": {
+        "T_BaseProdukT_PcsSetBOM.json": {
+          "FileHash": "71ebd59",
+          "ExportDate": "2026-06-10T16:55:13.000Z",
+          "SourceModified": null,
+          "FilePropertiesHash": "8e4f875"
+        },
+        "T_BaseProdukT_PcsSetBOM1.json": {
+          "FileHash": "7dbac68",
+          "ExportDate": "2026-06-10T16:55:13.000Z",
+          "SourceModified": null,
+          "FilePropertiesHash": "680380b"
+        },
+        "T_BaseProdukT_Produk.json": {
+          "FileHash": "39e3910",
+          "ExportDate": "2026-06-10T16:55:13.000Z",
+          "SourceModified": null,
+          "FilePropertiesHash": "b5b7f8b"
+        },
+        "T_BlankoKepingT_ProfilKeping.json": {
+          "FileHash": "61a3fd0",
+          "ExportDate": "2026-06-10T16:55:13.000Z",
+          "SourceModified": null,
+          "FilePropertiesHash": "bc8a218"
+        },
+        "T_DataKepingT_PcsSetBOM1.json": {
+          "FileHash": "3ccefbb",
+          "ExportDate": "2026-06-10T16:55:13.000Z",
+          "SourceModified": null,
+          "FilePropertiesHash": "5459c11"
+        },
+        "T_KategoriProdukT_BaseProduk.json": {
+          "FileHash": "a1ed7ed",
+          "ExportDate": "2026-06-10T16:55:13.000Z",
+          "SourceModified": null,
+          "FilePropertiesHash": "8e10a33"
+        },
+        "T_ListAxlePosT_BaseProduk.json": {
+          "FileHash": "19a876d",
+          "ExportDate": "2026-06-10T16:55:13.000Z",
+          "SourceModified": null,
+          "FilePropertiesHash": "c1e4865"
+        },
+        "T_ListCustomerT_Produk.json": {
+          "FileHash": "db88084",
+          "ExportDate": "2026-06-10T16:55:13.000Z",
+          "SourceModified": null,
+          "FilePropertiesHash": "b5b7f8b"
+        },
+        "T_ListOEMT_ProdukOEM.json": {
+          "FileHash": "222eae9",
+          "ExportDate": "2026-06-10T16:55:13.000Z",
+          "SourceModified": null,
+          "FilePropertiesHash": "9f9d75d"
+        },
+        "T_ListPolaLubangT_UkuranPolaLubang.json": {
+          "FileHash": "b4fa29e",
+          "ExportDate": "2026-06-10T16:55:13.000Z",
+          "SourceModified": null,
+          "FilePropertiesHash": "8e10a33"
+        },
+        "T_ListStatusBaseProdukT_BaseProduk.json": {
+          "FileHash": "619b3c8",
+          "ExportDate": "2026-06-10T16:55:13.000Z",
+          "SourceModified": null,
+          "FilePropertiesHash": "b572494"
+        },
+        "T_PcsSetBOMT_ProdukOEM.json": {
+          "FileHash": "ef15b3c",
+          "ExportDate": "2026-06-10T16:55:13.000Z",
+          "SourceModified": null,
+          "FilePropertiesHash": "b034d61"
+        },
+        "T_ProfilKepingT_PcsSetBOM.json": {
+          "FileHash": "c2c639e",
+          "ExportDate": "2026-06-10T16:55:13.000Z",
+          "SourceModified": null,
+          "FilePropertiesHash": "e8da8b1"
+        },
+        "T_UkuranLubangT_ProfilKeping.json": {
+          "FileHash": "85cca81",
+          "ExportDate": "2026-06-10T16:55:13.000Z",
+          "SourceModified": null,
+          "FilePropertiesHash": "73528c3"
+        },
+        "T_UkuranPolaLubangT_ProfilKeping.json": {
+          "FileHash": "27552b1",
+          "ExportDate": "2026-06-10T16:55:13.000Z",
+          "SourceModified": null,
+          "FilePropertiesHash": "8e10a33"
+        },
+        "T_UkuranRivetT_ProfilKeping.json": {
+          "FileHash": "685b7ff",
+          "ExportDate": "2026-06-10T16:55:13.000Z",
+          "SourceModified": null,
+          "FilePropertiesHash": "c1e4865"
+        }
+      },
+      "Reports": {
+        "Q_ProdukZebrake subreport.bas": {
+          "FileHash": "07fb1d4",
+          "ExportDate": "2026-06-10T16:55:12.000Z",
+          "SourceModified": null,
+          "FilePropertiesHash": "d47c783"
+        },
+        "Q_ProdukZebrake subreport1.bas": {
+          "FileHash": "00aac79",
+          "ExportDate": "2026-06-10T16:55:13.000Z",
+          "SourceModified": null,
+          "FilePropertiesHash": "bcd8bbc"
+        },
+        "R_BaseProdukDetail.bas": {
+          "FileHash": "0d14a77",
+          "ExportDate": "2026-06-10T16:55:13.000Z",
+          "SourceModified": null,
+          "FilePropertiesHash": "66413d7"
+        },
+        "R_CatalogProdukZebrake_Simple.bas": {
+          "FileHash": "03192eb",
+          "ExportDate": "2026-06-10T16:55:12.000Z",
+          "SourceModified": null,
+          "FilePropertiesHash": "af0edab"
+        },
+        "R_DaftarBlankoKeping.bas": {
+          "FileHash": "0e3f225",
+          "ExportDate": "2026-06-10T16:55:13.000Z",
+          "SourceModified": null,
+          "FilePropertiesHash": "3f4ad1e"
+        },
+        "R_DaftarPolaLubang_Detail.bas": {
+          "FileHash": "3f2e587",
+          "ExportDate": "2026-06-10T16:55:13.000Z",
+          "SourceModified": null,
+          "FilePropertiesHash": "21d7de7"
+        },
+        "R_PcsSetBOM.bas": {
+          "FileHash": "3130cc1",
+          "ExportDate": "2026-06-10T16:55:13.000Z",
+          "SourceModified": null,
+          "FilePropertiesHash": "59633f5"
+        },
+        "R_PcsSetBOM_bak.bas": {
+          "FileHash": "47ee34e",
+          "ExportDate": "2026-06-10T16:55:13.000Z",
+          "SourceModified": null,
+          "FilePropertiesHash": "4ef2776"
+        },
+        "R_PolaLubangOverview.bas": {
+          "FileHash": "6ff1012",
+          "ExportDate": "2026-06-10T16:55:13.000Z",
+          "SourceModified": null,
+          "FilePropertiesHash": "c2e75c2"
+        },
+        "R_ProfilKepingDetail.bas": {
+          "FileHash": "6fc8762",
+          "ExportDate": "2026-06-10T16:55:12.000Z",
+          "SourceModified": null,
+          "FilePropertiesHash": "33616bf"
+        }
+      },
+      "Tables": {
+        "ImporUkuranProdukSCB.xml": {
+          "FileHash": "5fb5a9f",
+          "ExportDate": "2026-06-10T16:55:03.000Z",
+          "SourceModified": null,
+          "FilePropertiesHash": "f81d06f"
+        },
+        "T_BaseProduk.xml": {
+          "FileHash": "784871f",
+          "ExportDate": "2026-06-10T16:55:03.000Z",
+          "SourceModified": null,
+          "FilePropertiesHash": "9b28127"
+        },
+        "T_BlankoKeping.xml": {
+          "FileHash": "aeda4d7",
+          "ExportDate": "2026-06-10T16:55:03.000Z",
+          "SourceModified": null,
+          "FilePropertiesHash": "753a6fa"
+        },
+        "T_Gambar.xml": {
+          "FileHash": "284a76b",
+          "ExportDate": "2026-06-10T16:55:03.000Z",
+          "SourceModified": null,
+          "FilePropertiesHash": "a11a007"
+        },
+        "T_KategoriProduk.xml": {
+          "FileHash": "e50ffa2",
+          "ExportDate": "2026-06-10T16:55:03.000Z",
+          "SourceModified": null,
+          "FilePropertiesHash": "c27916b"
+        },
+        "T_ListAxlePos.xml": {
+          "FileHash": "86f09e7",
+          "ExportDate": "2026-06-10T16:55:03.000Z",
+          "SourceModified": null,
+          "FilePropertiesHash": "7706ff7"
+        },
+        "T_ListCustomer.xml": {
+          "FileHash": "5216d54",
+          "ExportDate": "2026-06-10T16:55:03.000Z",
+          "SourceModified": null,
+          "FilePropertiesHash": "b381776"
+        },
+        "T_ListOEM.xml": {
+          "FileHash": "a73917e",
+          "ExportDate": "2026-06-10T16:55:04.000Z",
+          "SourceModified": null,
+          "FilePropertiesHash": "005b536"
+        },
+        "T_ListPolaLubang.xml": {
+          "FileHash": "0788838",
+          "ExportDate": "2026-06-10T16:55:04.000Z",
+          "SourceModified": null,
+          "FilePropertiesHash": "0428306"
+        },
+        "T_ListStatusBaseProduk.xml": {
+          "FileHash": "cc1322a",
+          "ExportDate": "2026-06-10T16:55:04.000Z",
+          "SourceModified": null,
+          "FilePropertiesHash": "251f76e"
+        },
+        "T_MenuUtama.xml": {
+          "FileHash": "3ad6754",
+          "ExportDate": "2026-06-10T16:55:04.000Z",
+          "SourceModified": null,
+          "FilePropertiesHash": "a54432f"
+        },
+        "T_PcsSetBOM.xml": {
+          "FileHash": "d099dfa",
+          "ExportDate": "2026-06-10T16:55:04.000Z",
+          "SourceModified": null,
+          "FilePropertiesHash": "142f69a"
+        },
+        "T_PcsSetBOM_deprecated.xml": {
+          "FileHash": "9c8dc97",
+          "ExportDate": "2026-06-10T16:55:04.000Z",
+          "SourceModified": null,
+          "FilePropertiesHash": "165ac4c"
+        },
+        "T_PolaLubang_bak.xml": {
+          "FileHash": "4341557",
+          "ExportDate": "2026-06-10T16:55:04.000Z",
+          "SourceModified": null,
+          "FilePropertiesHash": "8c83e36"
+        },
+        "T_Produk.xml": {
+          "FileHash": "358c8c4",
+          "ExportDate": "2026-06-10T16:55:04.000Z",
+          "SourceModified": null,
+          "FilePropertiesHash": "a8e8f74"
+        },
+        "T_ProdukOEM.xml": {
+          "FileHash": "4c47d63",
+          "ExportDate": "2026-06-10T16:55:04.000Z",
+          "SourceModified": null,
+          "FilePropertiesHash": "0421f8f"
+        },
+        "T_ProfilKeping.xml": {
+          "FileHash": "426f811",
+          "ExportDate": "2026-06-10T16:55:04.000Z",
+          "SourceModified": null,
+          "FilePropertiesHash": "7a2998f"
+        },
+        "T_UkuranLubang.xml": {
+          "FileHash": "3c3a6bf",
+          "ExportDate": "2026-06-10T16:55:04.000Z",
+          "SourceModified": null,
+          "FilePropertiesHash": "71b1a69"
+        },
+        "T_UkuranPolaLubang.xml": {
+          "FileHash": "b648d84",
+          "ExportDate": "2026-06-10T16:55:04.000Z",
+          "SourceModified": null,
+          "FilePropertiesHash": "a3a3bf3"
+        },
+        "T_UkuranRivet.xml": {
+          "FileHash": "f65adbd",
+          "ExportDate": "2026-06-10T16:55:04.000Z",
+          "SourceModified": null,
+          "FilePropertiesHash": "1349f49"
+        },
+        "Table1.xml": {
+          "FileHash": "2ddba9b",
+          "ExportDate": "2026-06-10T16:55:04.000Z",
+          "SourceModified": null,
+          "FilePropertiesHash": "3505809"
+        }
+      },
+      "Themes": {
+        "Office Theme.thmx": {
+          "FileHash": "91b249d",
+          "OtherHash": "ab9bcee",
+          "ExportDate": "2026-06-10T16:55:03.000Z",
+          "SourceModified": null,
+          "FilePropertiesHash": "a67a13a"
+        }
+      },
+      "VB Project": {
+        "vbe-project.json": {
+          "FileHash": "c5a331e",
+          "ExportDate": "2026-06-10T16:55:02.000Z",
+          "SourceModified": null,
+          "FilePropertiesHash": "8c6e3ee"
+        }
+      },
+      "VBE References": {
+        "vbe-references.json": {
+          "FileHash": "994c5a3",
+          "ExportDate": "2026-06-10T16:55:02.000Z",
+          "SourceModified": null,
+          "FilePropertiesHash": "c5fbe62"
+        }
+      }
+    }
+  }
+}

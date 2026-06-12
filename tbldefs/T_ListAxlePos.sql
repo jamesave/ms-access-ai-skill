@@ -1,0 +1,5 @@
+﻿CREATE TABLE [T_ListAxlePos] (
+  [AxlePosID] AUTOINCREMENT CONSTRAINT [PrimaryKey] PRIMARY KEY UNIQUE NOT NULL,
+  [AxlePos] VARCHAR (255),
+  [Deskripsi] VARCHAR (255)
+)

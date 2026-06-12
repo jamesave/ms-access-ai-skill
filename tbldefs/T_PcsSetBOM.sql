@@ -1,0 +1,7 @@
+﻿CREATE TABLE [T_PcsSetBOM] (
+  [SetBOMID] AUTOINCREMENT CONSTRAINT [PrimaryKey] PRIMARY KEY UNIQUE NOT NULL,
+  [BaseProdukID] LONG CONSTRAINT [T_BaseProdukT_PcsSetBOM1] REFERENCES [T_BaseProduk] ([BaseProdukID]),
+  [SetID_deprecated] VARCHAR (20),
+  [KepingID] VARCHAR (255),
+  [Qty] LONG
+)

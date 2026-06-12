@@ -1,0 +1,10 @@
+﻿CREATE TABLE [ImporUkuranProdukSCB] (
+  [ID] AUTOINCREMENT CONSTRAINT [ID] PRIMARY KEY UNIQUE NOT NULL,
+  [ProdukSCB] VARCHAR (255),
+  [Deskripsi] VARCHAR (255),
+  [F/R] VARCHAR (255),
+  [pcs/set] DOUBLE,
+  [Panjang] DOUBLE,
+  [Lebar] DOUBLE,
+  [Tebal] VARCHAR (255)
+)
